@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            <span class="highlight1">Weight Ai</span>
+            <span class="highlight">Made By - Ajay Bala</span>
+        </h1>
+    </header>
+
+
+    <main>
+        <div class="container">
+            <h2>Weight converter</h2>
+            <p>Enter a weight in kilograms to convert to other units.</p>
+
+
+            <div class="converter">
+                <input type="number" id="kgInput" placeholder="Enter weight in kg..." value="1">
+                <button onclick="convertWeight()">Convert</button>
+            </div>
+
+            
+            <div class="results">
+                <div class="result-box">
+                    <h3>Grams</h3>
+                    <p id="grams">1000.00 grams</p>
+                </div>
+                <div class="result-box">
+                    <h3>Pounds</h3>
+                    <p id="pounds">2.20 pounds</p>
+                </div>
+                <div class="result-box">
+                    <h3>Ounces</h3>
+                    <p id="ounces">35.27 ounces</p>
+                </div>
+            </div>
+
+            
+            <button class="save-btn">Save results</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
